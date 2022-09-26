@@ -8,7 +8,7 @@ i used navigation Component to navigate between views
 i used fragments instead of activities 
 in the details fragment there is also a landscap mode 
 
-JUST A NOTE : there  mistake in the secon endpoint link provieded in [the test](test.pdf)
+JUST A NOTE : there is mistake in the secon endpoint link provieded in [the test](test.pdf)
 it should be api.themoviedb.org 
 not**
 developers.themoviedb.org
