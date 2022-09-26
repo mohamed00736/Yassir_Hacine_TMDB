@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/movieListFragment"
+    android:id="@+id/navhost">
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="abdelhakim.hacine.med.tmdb.ui.MovieListFragment"
+        android:label="fragment_movie_list"
+        tools:layout="@layout/fragment_movie_list" >
+        <action
+            android:id="@+id/action_movieListFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="abdelhakim.hacine.med.tmdb.ui.MovieDetailFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail" >
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="rara" />
+        <argument
+            android:name="year"
+            app:argType="string"
+            android:defaultValue="year"
+            />
+        <argument android:name="overview"
+            app:argType="string"
+            android:defaultValue="over"
+            />
+        <argument
+            android:name="poster"
+            app:argType="string"
+            android:defaultValue="pos"/>
+    </fragment>
+
+</navigation>
