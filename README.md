@@ -1,5 +1,8 @@
 # TMDB
 [This is the test file ](test.pdf)
+****
+****
+****
 in this project Iam using MVVM as the Main Arch
 i used navigation Component to navigate between views 
 i used fragments instead of activities 
