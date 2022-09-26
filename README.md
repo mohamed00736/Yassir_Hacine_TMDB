@@ -8,6 +8,11 @@ i used navigation Component to navigate between views
 i used fragments instead of activities 
 in the details fragment there is also a landscap mode 
 
+JUST A NOTE : there  mistake in the secon endpoint link provieded in [the test](test.pdf)
+it should be api.temoviedb.or 
+not
+developers.themoviedb.org
+
 i wanted to use room library and paging3 but since its not mentioned in the [TEST](test.pdf) i didnt 
 
 
